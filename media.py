@@ -1,5 +1,7 @@
-#movie class
+# class structure for movie
 class movie:
+
+    """constructor for class"""
 
     def __init__(self, title, poster_image_url, trailer_youtube_url):
         self.title = title
